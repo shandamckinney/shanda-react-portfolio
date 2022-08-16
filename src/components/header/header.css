@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 2rem;
     overflow: hidden;
 }
 
@@ -27,7 +27,7 @@ header {
     position: absolute;
     gap:.8rem;
     left:0;
-    bottom:3rem;
+    bottom:12rem;
 }
 
 .header_socials::after{
@@ -41,7 +41,7 @@ header {
 .me {
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
-    height: 30rem;
+    height: 25rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
@@ -59,7 +59,7 @@ header {
 .scroll_down{
     position: absolute;
     right: -2.3rem;
-    bottom: 5rem;
+    bottom: 18rem;
     transform: rotate(90deg);
     font-weight: 300;
     font-size: .9rem;
