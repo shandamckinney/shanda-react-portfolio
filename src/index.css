@@ -17,12 +17,24 @@
   --color-white: #f1faee;
   --color-light: rgba(255, 255, 255, 0.6); */
 
-  --color-bg: #a4c3b2;
+  /* 379683
+  7395ae
+  557a95
+  b1a296 */
+
+  --color-bg: #5d5c61;
+  --color-primary: #557a95;
+  --color-bg-variant: #b1a296;
+  --color-primary-variant: #557a95;
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+
+  /* --color-bg: #a4c3b2;
   --color-primary: #c4d4cd;
   --color-bg-variant: #6b9080;
   --color-primary-variant: #eaf4f4;
   --color-white: #f6fff8;
-  --color-light: rgba(255, 255, 255, 0.6);
+  --color-light: rgba(255, 255, 255, 0.6); */
 
   --transition: all 400ms ease; 
 
@@ -58,7 +70,7 @@ h1, h2 {
   color: white !important;
 }
 
-h3, h4, h5 {
+h3, h4, h5, input::placeholder, textarea::placeholder {
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
 }
@@ -116,7 +128,7 @@ a:hover{
   width: max-content;
   display: inline-block;
   background: var(--color-primary);
-  color: var(--color-bg-variant);
+  color: var(--color-white);
   padding: .75rem 1.2rem;
   border-radius: .4rem;
   cursor: pointer;

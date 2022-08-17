@@ -52,7 +52,9 @@ input, textarea{
     resize: none;
     color: var(--color-white);
 }
-
+input::placeholder, textarea::placeholder{
+    color: var(--color-white)
+}
 @media screen and (max-width: 1024px) {
     .container.contact__container{
         grid-template-columns: 1fr;
