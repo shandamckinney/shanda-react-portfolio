@@ -30,11 +30,15 @@ header {
     bottom:12rem;
 }
 
+.header_socials a {
+    color: var(--color-bg-variant);
+}
+
 .header_socials::after{
     content:'';
     width: 1px;
     height: 2rem;
-    background: var(--color-primary);
+    background: var(--color-bg-variant);
 }
 
 /* ME */
@@ -63,6 +67,7 @@ header {
     transform: rotate(90deg);
     font-weight: 300;
     font-size: .9rem;
+    color: var(--color-bg-variant)
 }
 
 /* MEDIO QUERIES MEDIUM */

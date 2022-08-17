@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Tenor+Sans&display=swap');
 
 * {
   margin: 0;
@@ -10,11 +10,18 @@
 }
 
 :root{
-  --color-bg: #1f1f38;
-  --color-primary: #4db5ff;
-  --color-bg-variant: #2c2c6c;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
-  --color-white: #fff;
+  /* --color-bg: #2f3e46;
+  --color-primary: #84a98c;
+  --color-bg-variant: #52796f;
+  --color-primary-variant: #cad2c5;
+  --color-white: #f1faee;
+  --color-light: rgba(255, 255, 255, 0.6); */
+
+  --color-bg: #a4c3b2;
+  --color-primary: #c4d4cd;
+  --color-bg-variant: #6b9080;
+  --color-primary-variant: #eaf4f4;
+  --color-white: #f6fff8;
   --color-light: rgba(255, 255, 255, 0.6);
 
   --transition: all 400ms ease; 
@@ -37,7 +44,7 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+  background-image: url("https://www.transparenttextures.com/patterns/elegant-grid.png");
 }
 
 
@@ -46,8 +53,14 @@ body {
   margin: 4rem auto;
 }
 
-h1, h2, h3, h4, h5 {
-  font-weight: 500;
+h1, h2 {
+  font-family: 'Tenor Sans', sans-serif;
+  color: white !important;
+}
+
+h3, h4, h5 {
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
 }
 
 
@@ -85,7 +98,7 @@ a:hover{
 .btn {
   width: max-content;
   display: inline-block;
-  color: var(--color-primary);
+  color: var(--color-white);
   padding: .75rem 1.2rem;
   border-radius: .4rem;
   cursor: pointer;
@@ -103,7 +116,7 @@ a:hover{
   width: max-content;
   display: inline-block;
   background: var(--color-primary);
-  color: var(--color-bg);
+  color: var(--color-bg-variant);
   padding: .75rem 1.2rem;
   border-radius: .4rem;
   cursor: pointer;
