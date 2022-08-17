@@ -10,82 +10,86 @@ const Service = () => {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>Website Development</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck classname="service__list-icon"></BiCheck>
-              <p>Tumblr you probably haven't heard of them locavore typewriter prism.</p>
+              <p>Coding of website from given design</p>
             </li>
             <li>
               <BiCheck classname="service__list-icon"></BiCheck>
-              <p>Tumblr you probably haven't heard of them locavore typewriter prism.</p>
+              <p>Make changes to existing website</p>
             </li>
             <li>
               <BiCheck classname="service__list-icon"></BiCheck>
-              <p>Tumblr you probably haven't heard of them locavore typewriter prism.</p>
+              <p>Add backend to existing front-end</p>
             </li>
             <li>
               <BiCheck classname="service__list-icon"></BiCheck>
-              <p>Tumblr you probably haven't heard of them locavore typewriter prism.</p>
+              <p>Up to 6 pages</p>
             </li>
             <li>
               <BiCheck classname="service__list-icon"></BiCheck>
-              <p>Tumblr you probably haven't heard of them locavore typewriter prism.</p>
+              <p>2 week turn-around</p>
+            </li>
+            <li>
+              <BiCheck classname="service__list-icon"></BiCheck>
+              <p>Support for 6 months</p>
             </li>
           </ul>
         </article>
         <article className="service">
           <div className="service__head">
-            <h3>Web Development</h3>
+            <h3>Web Design and Development</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck classname="service__list-icon"></BiCheck>
-              <p>Tumblr you probably haven't heard of them locavore typewriter prism.</p>
+              <p>Work together to design website</p>
             </li>
             <li>
               <BiCheck classname="service__list-icon"></BiCheck>
-              <p>Tumblr you probably haven't heard of them locavore typewriter prism.</p>
+              <p>Up to 3 edits</p>
             </li>
             <li>
               <BiCheck classname="service__list-icon"></BiCheck>
-              <p>Tumblr you probably haven't heard of them locavore typewriter prism.</p>
+              <p>Website development from design</p>
             </li>
             <li>
               <BiCheck classname="service__list-icon"></BiCheck>
-              <p>Tumblr you probably haven't heard of them locavore typewriter prism.</p>
+              <p>Front end and backend</p>
             </li>
             <li>
               <BiCheck classname="service__list-icon"></BiCheck>
-              <p>Tumblr you probably haven't heard of them locavore typewriter prism.</p>
+              <p>Up to 6 pages</p>
+            </li>
+            <li>
+              <BiCheck classname="service__list-icon"></BiCheck>
+              <p>4 week turn-around</p>
+            </li>
+            <li>
+              <BiCheck classname="service__list-icon"></BiCheck>
+              <p>Support for 6 months</p>
             </li>
           </ul>
         </article>
         <article className="service">
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>Accessibility Audit</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck classname="service__list-icon"></BiCheck>
-              <p>Tumblr you probably haven't heard of them locavore typewriter prism.</p>
+              <p>Audit existing website for accessiblity rating</p>
             </li>
             <li>
               <BiCheck classname="service__list-icon"></BiCheck>
-              <p>Tumblr you probably haven't heard of them locavore typewriter prism.</p>
+              <p>Make changes to existing website to increase accessiblity</p>
             </li>
             <li>
               <BiCheck classname="service__list-icon"></BiCheck>
-              <p>Tumblr you probably haven't heard of them locavore typewriter prism.</p>
-            </li>
-            <li>
-              <BiCheck classname="service__list-icon"></BiCheck>
-              <p>Tumblr you probably haven't heard of them locavore typewriter prism.</p>
-            </li>
-            <li>
-              <BiCheck classname="service__list-icon"></BiCheck>
-              <p>Tumblr you probably haven't heard of them locavore typewriter prism.</p>
+              <p>Provide written suggestions</p>
             </li>
           </ul>
         </article>
