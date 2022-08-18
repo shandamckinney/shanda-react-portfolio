@@ -1,5 +1,6 @@
 import React from 'react'
 import './portfolio.css'
+import PP from "./../../assets/pinell-photography-screenshot.png"
 
 
 const Portfolio = () => {
@@ -26,7 +27,7 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src="https://i.ibb.co/RycxQfS/screencapture-pinellphotography-2022-08-17-17-06-49.png" alt=""></img>
+            <img src={PP} alt=""></img>
           </div>
           <h3>Pinell Photography</h3>
           <div className="portfolio__item-cta">
