@@ -27,7 +27,7 @@ header {
     position: absolute;
     gap:.8rem;
     left:0;
-    bottom:12rem;
+    bottom:10rem;
 }
 
 .header_socials a {
@@ -63,7 +63,7 @@ header {
 .scroll_down{
     position: absolute;
     right: -2.3rem;
-    bottom: 18rem;
+    bottom: 15rem;
     transform: rotate(90deg);
     font-weight: 300;
     font-size: .9rem;
@@ -74,7 +74,7 @@ header {
 
 @media screen and (max-width: 1024px) {
     header {
-        height: 68vh;
+        height: 100vh;
     }
 }
 

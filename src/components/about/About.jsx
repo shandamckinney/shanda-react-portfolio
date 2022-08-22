@@ -31,17 +31,18 @@ export const About = () => {
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>300+ Clients Worldwide</small>
+              <small>1 Million+ Users Reached</small>
             </article>
 
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>80+ Completed Projects</small>
+              <h5>Languages</h5>
+              <small>6+ Languages Used</small>
             </article>
           </div>
 
-          <p>I'm baby vHS retro next level man bun vape. Hoodie cloud bread messenger bag hell of fanny pack ramps affogato woke bespoke. Fingerstache literally cold-pressed kombucha umami raclette hexagon mixtape XOXO. Fingerstache literally waistcoat flexitarian bodega boys authentic mukbang, cray salvia banjo coloring book raw denim vibecession biodiesel. Cardigan disrupt air plant, messenger bag tote bag pork belly tacos mukbang bitters tbh. Umami same forage, four loko iPhone humblebrag kickstarter food truck listicle +1.</p>
+          <p>I'm Shanda Pinell and I am a coffee drinking, dog-loving, rock-climbing full-stack software engineer. With a degree in American Sign Language interpreting, and after working 2+ years, I made the plunge and accepted my first software engineering position. Every role I've taken has been in a language I've learned on the job and I thrive on constantly picking up new skills and diving into features that nobody else knows what to do.</p>
+          <p>Outside of work, I spend most of my time with my wife and dogs living life and driving around new parts of Houston. I'll never turn down food or a chance to build something from scratch. My dreams for the future are to buy a trailer and travel around the US with the family.</p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
